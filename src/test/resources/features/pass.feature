@@ -1,5 +1,5 @@
 @tag
-Feature: Calculator
+Feature: Pass
   Scenario: check pass
     given Input value 0
     When I check if he has passed
@@ -15,5 +15,5 @@ Feature: Calculator
       | 0     | 0   |
       | 5     | 0   |
       | 10    | 1   |
-      | 20    | 1   |
+      | 20    | 1  |
       | 7    | 0  |
